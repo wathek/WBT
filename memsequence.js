@@ -13,7 +13,7 @@ MemSequence.prototype.open = function(tick) {
 	tick.blackboard.set('runningChild', 0, tick.tree.id, this.id);
 }
 
-MemSquence.prototype.tick = function(tick) {
+MemSequence.prototype.tick = function(tick) {
 	let child = tick.blackboard.get('runningChild', tick.tree.id, this.id);
 
 	for (let i = child; i < this.children.length; i++) {
@@ -21,7 +21,7 @@ MemSquence.prototype.tick = function(tick) {
 
 		if (status !== Status.SUCCESS) {
 			if (status === Status.RUNNING) {
-				tick.blackboard.set('runninChild', i, tick.tree.id, this.id);
+				tick.blackboard.set('runningChild', i, tick.tree.id, this.id);
 			}
 
 			return status;
