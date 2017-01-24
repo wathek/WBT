@@ -1,0 +1,26 @@
+{
+  "name": "wbt",
+  "version": "1.0.0",
+  "description": "Behavior Tree Implementation for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wathek/WBT.git"
+  },
+  "keywords": [
+    "behavior",
+    "tree",
+    "nodejs",
+    "artificial",
+    "intelligence"
+  ],
+  "author": "Wathek LOUED <wathek@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wathek/WBT/issues"
+  },
+  "homepage": "https://github.com/wathek/WBT#readme"
+}
