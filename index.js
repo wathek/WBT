@@ -15,6 +15,7 @@ let WBT = {
 	Random: require('./random'),
 	Selector: require('./selector'),
 	Sequence: require('./sequence'),
+	Repeater: require('./repeater'),
 
 	Status: require('./status'),
 }
