@@ -26,3 +26,5 @@ Inverter.prototype.tick = function(tick) {
 
 	return status;
 }
+
+module.exports = Inverter;
