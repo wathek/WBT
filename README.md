@@ -1,5 +1,5 @@
 # WBT
-Node.js Behavior Tree, this a Node.js library to design a Behavior Tree. This is inspired from http://guineashots.com/2014/09/24/implementing-a-behavior-tree-part-1/
+Node.js Behavior Tree, this a Node.js library to design a Behavior Tree.
 
 # Example
 First let's define some Actions. We start by creating a ``DoRandom`` action and then we will simulate a success action ``SuccessAction`` and a fail action ``FailAction``.
